@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 /* Root Colors */
 :root {
   --light-line: #f0fff0;
