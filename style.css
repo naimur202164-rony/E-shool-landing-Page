@@ -18,6 +18,7 @@ body {
   --light-gray: #e5e5e5;
   --text-dark: 000000;
   --dark: #282531;
+  --light-violet: #56548c;
 }
 .container {
   margin: 0 auto;
@@ -25,9 +26,31 @@ body {
 }
 
 /* Navbar */
-
+Header {
+  background: var(--light-line);
+}
 /* Desktop Nav */
 Header nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  font-size: 1.5rem;
+
+  color: var(--light-violet);
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header nav ul li {
+  margin-right: 3rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--dark);
 }
