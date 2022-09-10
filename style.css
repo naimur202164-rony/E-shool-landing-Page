@@ -165,3 +165,20 @@ header nav ul li a {
 .coruse-footer .calender {
   width: 24px;
 }
+
+/* Testimonail */
+.testimonial h2 {
+  text-align: center;
+  color: var(--light-dark);
+  font-size: 2rem;
+}
+
+.testimonial .content {
+  display: flex;
+  gap: 8rem;
+  justify-content: space-around;
+}
+.testimonial .content img {
+  height: 120px;
+  width: 120px;
+}
