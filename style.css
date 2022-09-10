@@ -19,6 +19,7 @@ body {
   --text-dark: 000000;
   --dark: #282531;
   --light-violet: #56548c;
+  --orange: #fd511a;
 }
 .container {
   margin: 0 auto;
@@ -53,4 +54,15 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: var(--dark);
+}
+
+/* Banner */
+.hero-section {
+  padding: 1rem 0;
+}
+.hero-section .left h3 {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: var(--orange);
 }
