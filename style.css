@@ -124,8 +124,7 @@ header nav ul li a {
   justify-content: space-between;
   align-items: center;
 }
-.courses-container {
-}
+
 .courses-background h2 {
   padding: 2rem 0rem;
   text-align: center;
@@ -157,4 +156,12 @@ header nav ul li a {
 
 .courses-container .courses div {
   margin-top: 1rem;
+}
+
+.coruse-footer {
+  display: flex;
+}
+
+.coruse-footer .calender {
+  width: 24px;
 }
