@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+/* Root Colors */
+:root {
+  --light-line: #f0fff0;
+  --green-color: #21b573;
+  --white: #ffffff;
+  --light-gray: #e5e5e5;
+  --dark: #282531;
+}
 .container {
   margin: 0 auto;
   max-width: 1140px;
@@ -10,5 +19,7 @@
 /* Navbar */
 
 /* Desktop Nav */
-
-
+Header nav {
+  display: flex;
+  justify-content: space-between;
+}
