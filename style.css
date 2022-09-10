@@ -96,3 +96,14 @@ header nav ul li a {
 }
 
 /* Books */
+.books-container {
+  display: flex;
+  justify-content: space-between;
+}
+.books-container .books div {
+  display: flex;
+  justify-content: center;
+  height: 85px;
+}
+
+
