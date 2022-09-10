@@ -20,6 +20,7 @@ body {
   --dark: #282531;
   --light-violet: #56548c;
   --orange: #fd511a;
+  --light-dark: #413960;
 }
 .container {
   margin: 0 auto;
@@ -106,4 +107,11 @@ header nav ul li a {
   height: 85px;
 }
 
-
+.books-container .books h3 {
+  text-align: center;
+  color: var(--light-dark);
+}
+.books-container .books p {
+  text-align: center;
+  font-size: 16px;
+}
