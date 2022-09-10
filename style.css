@@ -98,6 +98,7 @@ header nav ul li a {
 
 /* Books */
 .books-container {
+  padding: 3rem 0rem;
   display: flex;
   justify-content: space-between;
 }
@@ -115,3 +116,5 @@ header nav ul li a {
   text-align: center;
   font-size: 16px;
 }
+
+/* Online-Coursces */
