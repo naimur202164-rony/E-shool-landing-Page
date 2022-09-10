@@ -21,6 +21,7 @@ body {
   --light-violet: #56548c;
   --orange: #fd511a;
   --light-dark: #413960;
+  --gray: #585859;
 }
 .container {
   margin: 0 auto;
@@ -118,3 +119,42 @@ header nav ul li a {
 }
 
 /* Online-Coursces */
+.courses-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses-container {
+}
+.courses-background h2 {
+  padding: 2rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--light-dark);
+}
+.courses-container .courses img {
+  width: 331px;
+  height: 234px;
+}
+
+.courses-container .courses h2 {
+  font-size: 1.5;
+  color: var(--light-dark);
+}
+
+.courses-container .courses p {
+  font-size: 16px;
+  color: gray;
+}
+
+.courses-container .courses .courses-btn {
+  text-decoration: none;
+  color: var(--white);
+  padding: 8px 28px 8px 28px;
+  border-radius: 1rem;
+  background: var(--green-color);
+}
+
+.courses-container .courses div {
+  margin-top: 1rem;
+}
